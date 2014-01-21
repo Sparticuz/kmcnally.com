@@ -1,0 +1,188 @@
+header{
+
+  text-align: center;
+
+}
+
+.site {
+  text-align: justify;
+  line-height: 1.5em;
+  width: 40em;
+  margin: 0 auto;
+}
+
+header {
+
+  margin-bottom: 2em;
+
+  a {
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  h1.title {
+    display: inline-block;
+    font-family: $header-font;
+    font-size: 3em;
+
+    a {
+      color: #a00;
+      &:hover{
+        color: #000;
+      }
+    }
+    
+  }
+
+  nav{
+  
+    ul {
+      display: inline;
+      -webkit-padding-start: 0;
+
+      li {
+        display: inline;
+      
+        .extra {
+          color: #aaa;
+          &:hover{
+            color: #000;
+          }
+        }
+
+      }
+
+    }
+  }
+}
+
+
+
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+ul.posts li {
+  line-height: 1.75em;
+}
+
+ul.posts span {
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 80%;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.site .meta {
+  color: #aaa;
+}
+
+footer {
+  font-size: 80%;
+  color: #666;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
+
+  .contact {
+    float: left;
+    margin-right: 3em;
+  }
+
+  .contact a {
+    color: #8085C1;
+  }
+
+    img {
+      border: 0;
+    }
+}
+
+
+
+
+
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+/* standard */
+.post {
+
+  table{
+    font-size: 14px;
+    border-collapse:collapse;
+    margin:20px 0 0;
+    padding:0;
+    tr {
+      border-top:1px solid #ccc;
+      background-color:#fff;
+      margin:0;
+      padding:0;
+      &:nth-child(2n) {
+        background-color:#f8f8f8;
+      }
+
+      th[align="center"], table tr td[align="center"] {
+        text-align:center;
+      }
+
+      th, td {
+        border:1px solid #ccc;
+        text-align:left;
+        margin:0;
+        padding:6px 13px;
+      }
+    }
+  }
+  
+  pre {
+    border: 1px solid #ddd;
+    background-color: #eef;
+    padding: 0 .4em;
+    
+    code {
+      border: none;
+    }
+  }
+
+  ul, ol {
+    margin-left: 1.35em;
+  }
+
+  code {
+    border: 1px solid #ddd;
+    background-color: #eef;
+    padding: 0 .2em;
+  }
+
+  /* terminal */
+  pre.terminal {
+    border: 1px solid #000;
+    background-color: #333;
+    color: #FFF;
+
+    code {
+      background-color: #333;
+    }
+  }
+
+  img{
+  }
+
+}
