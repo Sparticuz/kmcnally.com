@@ -1,0 +1,11 @@
+name: Kristyn McNally
+markdown: redcarpet
+pygments: true
+timezone: America/New_York
+lsi: true
+url: http://www.kmcnally.com
+author: Kristyn McNally
+email: kristyn@kmcnally.net
+permalink: pretty
+redcarpet:
+  extensions: ['tables','autolink']
